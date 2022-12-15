@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/flowbite@1.4.0/dist/flowbite.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+    <body class="leading-normal tracking-normal text-gray-900" style="font-family: 'Source Sans Pro', sans-serif;">
+        <div class="h-screen pb-14 bg-right bg-cover" style="background-image:url('');">
+            <!--Nav-->
+            <div class="w-full container mx-auto p-6">   
+                <div class="w-full flex items-center justify-between">
+                    <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
+                         GeoMonument
+                    </a>
+                    <div class="flex w-1/2 justify-end content-center">		
+                        <a class="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"  href="map.html">
+                            <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12,12A4,4,0,1,0,8,8,4,4,0,0,0,12,12Zm0-6a2,2,0,1,1-2,2A2,2,0,0,1,12,6ZM16,22.03l8,1.948V13.483a3,3,0,0,0-2.133-2.871l-2.1-.7A8.037,8.037,0,0,0,20,8.006a8,8,0,0,0-16,0,8.111,8.111,0,0,0,.1,1.212A2.992,2.992,0,0,0,0,12v9.752l7.983,2.281ZM7.757,3.764a6,6,0,0,1,8.493,8.477L12,16.4,7.757,12.249a6,6,0,0,1,0-8.485ZM2,12a.985.985,0,0,1,.446-.832A1.007,1.007,0,0,1,3.43,11.1l1.434.518a8.036,8.036,0,0,0,1.487,2.056L12,19.2l5.657-5.533a8.032,8.032,0,0,0,1.4-1.882l2.217.741a1,1,0,0,1,.725.961v7.949L16,19.97l-7.98,2L2,20.246Z"/></svg>
+                        </a>
+                    </div>
+                    
+                </div>
+        
+            </div>
+        
+            <!--Main-->
+            <div class=" pt-24 sm:pt-32 px-6 mx-auto flex flex-wrap flex-col  items-center text-center">
+                <img class="h-48 fill-current text-indigo-600 pr-2 " src="asset/img/LogoGeoM.png"/>
+                    <br/>
+                    <h1 class="my-4 text-3xl md:text-5xl text-green-500 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Application Geo Monument </h1>
+                    <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">L'application qui geocalise les monuments proches de chez vous</p>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full fade-in "><a href="#about"></a>
+                        En savoir plus
+                    </button>
+
+                    <div class="p-10 mt-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5" id="about">
+                        <!--Card 1-->
+                        <div class="rounded overflow-hidden shadow-lg">
+                        <img class="w-full" src="asset/img/Mf.jpg" alt="Mountain">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2">Monument</div>
+                            <p class="text-gray-700 text-base">
+                            Les monuments de ma ville
+                            </p>
+                        </div>
+                        <div class="px-6 pt-4 pb-2">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                        </div>
+                        </div>
+                        <!--Card 2-->
+                        <div class="rounded overflow-hidden shadow-lg">
+                        <img class="w-full" src="asset/img/constmon.jpg" alt="River">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2">Histoire de la construction</div>
+                            <p class="text-gray-700 text-base">
+                            Rejoigner nous pour découvrir l'histoire des construction des monuments de vôtre ville
+                            </p>
+                        </div>
+                        <div class="px-6 pt-4 pb-2">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#histoire</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#vacance</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#<3</span>
+                        </div>
+                        </div>
+
+                        <!--Card 3-->
+                        <div class="rounded overflow-hidden shadow-lg">
+                        <img class="w-full" src="asset/img/touriste.jpg" alt="Forest">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2">Tourisme</div>
+                            <p class="text-gray-700 text-base">
+                            Partager vos meilleurs photos
+                            </p>
+                        </div>
+                        <div class="px-6 pt-4 pb-2">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#vacance</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#famille</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- component -->
+                    <div class="min-h-screen flex items-center justify-center">
+                        <div class="px-10">
+                        <div class="bg-white max-w-xl rounded-2xl px-10 py-8 shadow-lg hover:shadow-2xl transition duration-500">
+                            <div class="w-14 h-14 bg-yellow-500 rounded-full flex items-center justify-center font-bold text-white"><img src="asset/img/LogoGeoM.png"/></div>
+                            <div class="mt-4">
+                            <h1 class="text-lg text-gray-700 font-semibold hover:underline cursor-pointer">Utilisateur</h1>
+                            <div class="flex mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <p class="mt-4 text-md text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                            <div class="flex justify-between items-center">
+                                <div class="mt-4 flex items-center space-x-4 py-6">
+                                <div class="">
+                                    <img class="w-12 h-12 rounded-full" src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80" alt="" />
+                                </div>
+                                <div class="text-sm font-semibold">Lucie po • <span class="font-normal">Il y a 5 minutes</span></div>
+                                </div>
+                                <div class="p-6 bg-green-500 rounded-full h-4 w-4 flex items-center justify-center text-2xl text-white mt-4 shadow-lg cursor-pointer">+</div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class=" text-sm text-center mb-0">
+                        <a class="text-gray-500 no-underline hover:no-underline" href="#">&copy;MyDigitalSchool-BDEV</a>
+                    </div>
+            </div>
+        </div>
+</body>
+</html>
